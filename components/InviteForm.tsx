@@ -16,6 +16,7 @@ export function isValidEmail(email: string): boolean {
 
 export const InviteForm: React.FC<InviteFormProps> = ({
   onSubmit, errorMessage, isLoading,
+  
 }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
